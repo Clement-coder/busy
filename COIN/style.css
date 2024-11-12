@@ -1,0 +1,323 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    border: 1px solid rgb(224, 214, 214);
+    height: 55px;
+}
+
+nav a:hover{
+    color: green;
+}
+
+svg{
+    cursor: pointer;
+}
+
+span{
+    font-size: 0.8rem;
+    color: gray;
+    padding-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(17, 15, 15);
+}
+
+.cols{
+    color: green;
+}
+
+.set{
+    background-color: whitesmoke;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.set:hover{
+    background-color: rgb(230, 222, 222);
+}
+
+.log-in{
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.sign{
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(13, 179, 13);
+    color: white;
+    margin-left: 8px;
+}
+
+.sign:hover{
+    background-color: rgb(13, 179, 13);
+    transition: all;
+    transition: ease 1s;
+    text-transform: uppercase;
+    scale: 1.1;
+}
+
+.login{
+    display: flex;
+    position: relative;
+    left: 80%;
+    bottom: 20px;
+}
+
+
+.logo img{
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.links strong{
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 200px;
+    bottom: 58px;
+    color: rgb(87, 80, 80);
+}
+
+
+.links strong:hover{
+    color: rgb(13, 179, 13);
+}
+
+.candy img{
+    width: 30px;
+    height: 20px;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+.candy strong{
+    color: rgb(87, 80, 80);
+    cursor: pointer;
+}
+
+.candy{
+    position: relative;
+    left: 60%;
+    bottom: 80px;
+}
+
+.candy form input{
+    width: 250px;
+    height: 35px;
+    padding-left: 30px;
+    font-size: 1rem;
+    border-radius: 30px;
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+}
+
+.candy form input:focus{
+    outline: none;
+    border: 1px solid rgb(13, 179, 13);
+}
+
+.candy svg{
+    position: relative;
+    left: 257px;
+    bottom: 60px;
+    fill: gray;
+}
+
+main{
+    border: 1px solid rgb(224, 214, 214);
+    height: 70px;
+    border-top: none;
+}
+
+.google{
+    border: 1.50px dotted gray;
+    background-color: whitesmoke;
+    height: 100px;
+    width: 750px;
+    text-align: center;
+    color: gray;
+    margin-left: 25%;
+    margin-top: 20PX;
+}
+
+.google p{
+    font-size: 1.2rem;
+}
+
+.google .ads{
+    width: 120px;
+    height: 35px;
+    color: rgb(249, 249, 253);
+    background-color: rgb(110, 110, 248);
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.google svg{
+    fill: gray;
+}
+
+.google .why{
+    background-color: white;
+    width: 150px;
+    height: 35px;
+    color: gray;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    top: 4px;
+}
+
+.google strong{
+    cursor: pointer;
+}
+
+.google .arrow svg{
+    position: relative;
+    right: 360px;
+}
+
+.google .arrow svg:hover{
+    fill: rgb(35, 35, 247);
+}
+
+.google .why:hover{
+    background-color: rgb(247, 244, 244);
+}
+
+.google .why svg{
+    position: relative;
+    top: 4px;
+}
+
+
+.google .ads:hover{
+    background-color: rgb(89, 89, 250);
+}
+
+
+.price{
+    margin: 40px;
+}
+
+.price p{
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.price span{
+    color: green;
+}
+
+
+.price a:hover{
+    color: green;
+}
+
+
+.price svg{
+    position: relative;
+    left: 86%;
+    bottom: 40px;
+   
+}
+
+.price strong{
+    color: rgb(104, 98, 98);
+    position: relative;
+    left: 85%;
+    bottom: 50px;
+}
+
+.price a{
+    color: rgb(44, 40, 40);
+    font-size: 1rem;
+}
+
+.trend{
+    margin-bottom: 60px;
+}
+.cap, .trade{
+    border: 2px solid rgb(235, 228, 228);
+    height: 100px;
+    width: 400px;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 0px;
+    position: relative;
+    left: 40px;
+}
+
+.market strong{
+    font-size: 1.2rem;
+}
+
+.market p{
+    color: gray;
+}
+
+.market a{
+    text-decoration: none;
+    color: green;
+}
+
+
+.text, .texti{
+    margin: 30px
+}
+
+
+.trending img{
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.trending a{
+    text-decoration: none;
+    color:  rgb(44, 40, 40);
+}
+
+.trending .coin{
+    position: relative;
+    left: 30px;
+    bottom: 26px;
+    cursor: pointer;
+}
+
+.trending span{
+    color: black;
+    font-size: 0.9rem;
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.trending .coin svg{
+    position: relative;
+    left: 200px;
+    bottom: 25px;
+    cursor: pointer;
+}
